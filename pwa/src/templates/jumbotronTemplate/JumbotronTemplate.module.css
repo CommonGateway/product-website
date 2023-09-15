@@ -1,0 +1,34 @@
+.wrapper {
+  padding-block: 48px;
+  background-color: var(--utrecht-page-header-background-color) !important;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  gap: var(--utrecht-space-inline-xl);
+  align-items: center;
+}
+
+.content > * {
+  color: var(--utrecht-page-header-color) !important;
+  --utrecht-heading-1-color: var(--utrecht-page-header-color);
+}
+
+.header {
+  margin-block-end: var(--utrecht-space-block-md);
+}
+
+.subtitle {
+  position: relative;
+  font-style: italic;
+  display: block;
+  margin-block-end: var(--utrecht-space-block-md);
+  font-size: var(--utrecht-heading-4-font-size);
+}
+
+.image {
+  width: 50% !important;
+  object-fit: contain;
+}
